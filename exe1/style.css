@@ -15,11 +15,15 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    font-size: 1em;
 }
-header{
+header ul{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction: row;
+    padding:20px 10px 20px 20px;
+    color: #333333;
+    text-transform: uppercase;
 }
 main{
 display: flex;
@@ -72,6 +76,9 @@ height: auto;
     font-size: small;
     width: 45%;
     font-weight: 500;
+}
+.menu{
+    display: none;
 }
 .continer-left p{
     font-size: 1.3em;
@@ -154,6 +161,7 @@ footer div{
  
      
      }
+     
 
 }  
 
@@ -170,8 +178,20 @@ footer div{
     height:auto;
     margin-right: 3px;
 
-
 }
+.u-ul{
+    display: none;
+}
+.menu{
+    display: list-item;
+    width: 25px;
+    position: relative;
+    margin: 20px 20px 20px 20px;
+position: relative;
+left: 90%;
+right: 10%;
+}
+
     
 }  
 @media   screen and ( max-width: 360px){
