@@ -1,0 +1,108 @@
+html ,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    width: 100%;
+  
+}
+.navbar .nav-item {
+    flex: 1;
+    text-align: center;
+}
+.nav-link:active {
+    cursor: pointer;
+    color: #333333 !important;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-form ul li button :active{
+    background-color: blue;
+    border: grey solid 2px;
+    padding: 0;
+    margin: 0;
+}
+
+.container-img img{
+    height: 50vh;
+    margin-right: 10rem;
+    margin-bottom: 5rem;
+
+}
+.container-form{
+    margin-top: 3rem;
+    margin-right: 5rem;
+}
+
+.slider-div{
+    padding: 2.5rem;
+    background-color: #dee2e6;
+   
+    
+}
+p{
+    text-align: start;
+    font-size: 1.2rem;
+}
+
+.new{
+    width: 2rem;
+    text-align: start;
+    margin-top: -.8rem;
+    display: flex;
+}
+.new small{
+    background-color: blueviolet;
+
+}
+.new-circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+    background-color: rgb(211, 180, 4);
+}
+
+@media screen and (max-width:992px){
+.image-woman{
+    height:12rem !important;
+}
+}
+@media screen and (max-width:768px){
+
+    .container-img img{
+        
+      margin: 0;
+    
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    .container-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-img img {
+        width: 80%;
+        height:auto;
+      
+    }
+    .container-form {
+       width: auto;
+    }
+}
+
+

@@ -1,0 +1,11 @@
+.exciting-text::after {
+    content: " <- EXCITING!"; 
+    color: green;
+  }
+  
+  .boring-text::after {
+    content: " <- BORING";
+    color: red;
+    justify-content: space-between;
+    background-color:;
+  }
